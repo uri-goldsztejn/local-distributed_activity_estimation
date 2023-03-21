@@ -63,7 +63,7 @@ function [output] = tensor_decomposition(Y_input,varargin)
 
 % add tensor toolbox - which can be downloaded from
 % https://www.tensortoolbox.org/
-addpath(genpath('tensor_toolbox-v3.2'));
+addpath(genpath('tensor_toolbox'));
 addpath(genpath('utils'));
 
 % Set random seed value for reproducibility

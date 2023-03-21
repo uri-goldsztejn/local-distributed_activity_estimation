@@ -1,0 +1,3 @@
+[submodule "tensor_toolbox"]
+	path = tensor_toolbox
+	url = https://github.com/andrewssobral/tensor_toolbox

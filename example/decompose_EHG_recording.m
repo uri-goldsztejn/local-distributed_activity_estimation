@@ -4,7 +4,7 @@
 
 clear all;close all;clc
 rng('default')
-addpath(genpath('tensor_toolbox-v3.2'));
+addpath(genpath('tensor_toolbox'));
 addpath(genpath('utils'));
 addpath(genpath('example'));
 
