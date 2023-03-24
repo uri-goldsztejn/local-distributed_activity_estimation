@@ -5,7 +5,7 @@ via statistical tensor decomposition]()"
 
 A preprint of our paper can be found [here](https://arxiv.org/abs/2209.02183).   
 
-Uri Goldsztejn, Arye Nehorai
+Uri Goldsztejn, Arye Nehorai  
 Washington University in St. Louis, 2023
 
 *If you find this code useful, please consider citing.*
