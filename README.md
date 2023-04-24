@@ -1,7 +1,7 @@
 # Estimating uterine activity from electrohysterogram measurements via statistical tensor decomposition
 
 This is the code developed for our paper "[Estimating uterine activity from electrohysterogram measurements
-via statistical tensor decomposition]()"  
+via statistical tensor decomposition](https://www.sciencedirect.com/science/article/abs/pii/S1746809423003324?casa_token=ay36NKGerGIAAAAA:G2l5ZgFyFZddwOfo0o5cyQNSABfMcNJePfbjA9Mben30MwLG77NOLfhaAxyggK_n3OzJWBt0)"  
 
 A preprint of our paper can be found [here](https://arxiv.org/abs/2209.02183).   
 
@@ -36,8 +36,4 @@ This tensor decomposition requires the following submodules, which are copied in
 
 ## Citation
 
-Goldsztejn, Uri, and Arye Nehorai. "Estimating uterine activity from electrohysterogram measurements via statistical tensor decomposition." arXiv preprint arXiv:2209.02183 (2022).
-
-## Contact
-Uri Goldsztejn  
-uri.goldsztejn@wustl.edu
+Goldsztejn, U., & Nehorai, A. (2023). Estimating uterine activity from electrohysterogram measurements via statistical tensor decomposition. Biomedical Signal Processing and Control, 85, 104899.
