@@ -1,7 +1,6 @@
 % This function decomposes the input tensor as described in:
-% Goldsztejn, Uri, and Arye Nehorai.
-% "Estimating uterine activity from electrohysterogram measurements via statistical tensor decomposition."
-% arXiv preprint arXiv:2209.02183 (2022).
+% Goldsztejn, Uri, and Arye Nehorai. "Estimating uterine activity from electrohysterogram measurements via statistical tensor decomposition."
+% Biomedical Signal Processing and Control 85 (2023): 104899.
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %   Input parameters:
@@ -36,11 +35,11 @@
 %                   reconstruction (i.e., sqrt(mean((Y(:) - X(:) - S(:)).^2))).
 %
 %   Usage:
-%           output = RTD_v22(Y, 'max_iterations', 100, 'initial_sparse_variance', 1)
+%           output = tensor_decomposition(Y, 'max_iterations', 100, 'initial_sparse_variance', 1)
 %
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Copyright (c) 2021 Uri Goldsztejn
+% Copyright (c) 2023 Uri Goldsztejn
 %
 % This program is free software: you can redistribute it and/or modify
 % it under the terms of the GNU General Public License as published by
