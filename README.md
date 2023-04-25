@@ -19,6 +19,9 @@ Washington University in St. Louis, 2023
 
 ## Overview
 
+Complications during pregnancy and labor are common and can be especially detrimental in populations with limited access to healthcare. Electrohysterogram (EHG) measurements noninvasively record uterine electrical activity and are a promising technology for detecting and predicting uterine electrical abnormalities. However, EHGs record electrical activity from various sources besides the uterus, e.g., maternal respiration and electrical activity from the abdominal muscles.
+To address this limitation, we developed a statistical tensor decomposition to separate localized activity corresponding to uterine activity from temporally and spatially distributed electrical activity corresponding to more uniformly distributed physiological processes, such as maternal respiration.
+Using simulated EHG measurements, we showed that our method can estimate localized activity more accurately than existing matrix and tensor methods. We also showed that our method can denoise uterine contractions with higher SNRs, defined as power ratios between EHG bursts and segments with only baseline EHG activity, than alternative methods.
 
 
 ## Files
@@ -34,6 +37,6 @@ This tensor decomposition requires the following submodules, which are copied in
 * ckronx: An efficient computation of Kronecker products (https://www.mathworks.com/matlabcentral/fileexchange/74107-ckronx-efficient-computation-with-kronecker-products), MATLAB Central File Exchange.
 
 
-## Citation
+## Reference
 
 Goldsztejn, U., & Nehorai, A. (2023). Estimating uterine activity from electrohysterogram measurements via statistical tensor decomposition. Biomedical Signal Processing and Control, 85, 104899.
