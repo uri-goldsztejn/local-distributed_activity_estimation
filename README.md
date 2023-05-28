@@ -32,7 +32,7 @@ Using simulated EHG measurements, we showed that our method can estimate localiz
 
 ## Software requirements
 
-This tensor decomposition requires the following submodules, which are copied in this repository for ease of use.
+This tensor decomposition requires the following submodules:
 * The Tensor toolbox, which can be downloaded from: [tensortoolbox.org](https://www.tensortoolbox.org/)
 * ckronx: An efficient computation of Kronecker products (https://www.mathworks.com/matlabcentral/fileexchange/74107-ckronx-efficient-computation-with-kronecker-products), MATLAB Central File Exchange.
 
